@@ -174,9 +174,3 @@ pipeline {
     git push
     ```
 3. Jenkins will auto-deploy or trigger **Build Now**.
-
-## 📜 License
-MIT License
-
-## 🙋‍♂️ Author
-Mahesh Darimireddy — [GitHub Profile](https://github.com/Maahi312)
