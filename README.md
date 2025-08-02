@@ -1,5 +1,5 @@
 
-# 🚀 CI/CD Pipeline for FastAPI using Jenkins, Docker & GitHub
+# CI/CD Pipeline for FastAPI using Jenkins, Docker & GitHub
 
 This project demonstrates a fully automated **CI/CD pipeline** for deploying a FastAPI application using **Docker**, **Jenkins**, and **GitHub** on an **Ubuntu server**.
 
