@@ -166,7 +166,7 @@ pipeline {
     ```
 - Visit: `http://<droplet_ip>:8000/`
 
-## 🔄 Updating & Redeployment
+## 🔄 Updating & Redeployment:
 1. Modify code (e.g., update greeting in `main.py`)
 2. Push changes:
     ```bash
