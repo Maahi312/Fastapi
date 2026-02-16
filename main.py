@@ -1,9 +1,7 @@
-from database import engine
-from models import Base 
+from fastapi import FastAPI
 
-def create_db():
-    Base.metadata.create_all(bind=engine)
+app = FastAPI()
 
-if __name__ == "__main__":
-    create_db()
-    print("✅ Database tables created successfully.")
+@app.get("/")
+def read_root():
+    return{"message": "Hello World"}
