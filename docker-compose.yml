@@ -20,8 +20,8 @@ services:
     ports:
       - "5050:80"
     environment:
-      PGADMIN_EMAIL: mahesh.darimireddy1997@gmail.com
-      PGADMIN_PASSWORD: Mahesh123
+      PGADMIN_DEFAULT_EMAIL: mahesh.darimireddy1997@gmail.com
+      PGADMIN_DEFAULT_EMAIL_PASSWORD: Mahesh123
     depends_on:
       - postgres
 
