@@ -1,21 +1,4 @@
-version: "3.9"
-
 services:
-
-  app:
-    build: .
-    container_name: fastapi_app
-    restart: unless-stopped
-    ports:
-      - "8000:8000"
-    environment:
-      DATABASE_HOSTNAME: postgres
-      DATABASE_USERNAME: postgres
-      DATABASE_NAME: shared_models
-      DATABASE_PASSWORD: Mahesh%40204
-      DATABASE_PORT: 5432
-    depends_on:
-      - postgres
 
   postgres:
     image: postgres:15
