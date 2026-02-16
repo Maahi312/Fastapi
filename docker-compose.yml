@@ -1,7 +1,7 @@
 services:
 
   postgres:
-    image: postgres
+    image: postgres:15
     container_name: postgres_db
     restart: unless-stopped
     ports:
@@ -14,8 +14,8 @@ services:
       - postgres-data:/var/lib/postgresql/data
 
   pgadmin:
-    image: pgadmin
-    container_name: pgadmin_db
+    image: dpage/pgadmin4
+    container_name: pgadmin_ui
     restart: unless-stopped
     ports:
       - "5050:80"
